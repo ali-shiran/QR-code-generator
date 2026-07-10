@@ -19,13 +19,6 @@ def data_file_path(filename: str) -> str :
 
     return file_path
 
-def check_existence(filename: str) -> bool :
-
-    file_path = data_file_path(filename)
-
-    file_existence = os.path.exists(file_path)
-
-    return file_existence
 
 def name_manager() -> str :
 
